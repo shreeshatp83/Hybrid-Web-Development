@@ -1,0 +1,58 @@
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10;
+
+}
+.info{
+    width: 800px;
+    
+}
+.sum-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20;
+    margin-bottom: 10;
+}
+.sum-text{
+    margin-top: 0;
+}
+.core{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+    margin-bottom: 10;
+}
+.ad{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+    margin-bottom: 10;
+}
+.sk{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+    margin-bottom: 10;
+}
+.exp{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+    margin-bottom: 10;
+}
+.ref{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+    margin-bottom: 10;
+}
+.con{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25;
+    font-weight: bold;
+    margin-bottom: 10;
+}
