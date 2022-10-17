@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Noto Sans', sans-serif;
+}
+body{
+    background-color: #d7f2cc;
+}
+.head{
+    color: white;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(138, 111, 77);
+    
+}.bio{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text{
+    height: 500px;
+    background-color: #7dc8a6;
+    margin: 30px 100px 30px 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.details{
+    border: white;
+    color: black;
+   margin: 75px 0px 10px 425px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border-spacing: 30px;
+}
+
+td{
+    padding-right: 100px;
+}
+.info{
+    color: white;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+.b{
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: white;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+.pag{
+    display: inline-block;
+}
+.pag a{
+    background-color:#7bb27c;
+    color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pag a:active{
+    background-color: rgb(170, 148, 49);
+}

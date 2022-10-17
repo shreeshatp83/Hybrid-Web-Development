@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Noto Sans', sans-serif;
+}
+body{
+    background-color: #d7f2cc;
+}
+.head{
+    color: white;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(138, 111, 77);
+    
+}.bio{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text{
+    height: 500px;
+    background-color: #7dc8a6;
+    margin: 30px 100px 30px 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    /* display: flex; */
+}
+.home{
+    width: 650px;
+    margin-left: 10px;
+    float: left;
+    color: white;
+    
+}
+.P{
+    margin:30px 0px 0px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+
+}
+.work{
+    width: 650px;
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+.pag{
+    display: inline-block;
+}
+.pag a{
+    background-color:#7bb27c;
+    color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pag a:active{
+    background-color: rgb(170, 148, 49);
+}

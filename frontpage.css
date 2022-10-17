@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aqua;
+}
+.head{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 300px;
+}
+.dat{
+    background-color: blue;
+    color: white;
+    font-family:'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    height: 250px;
+}
+.here{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.click{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bio{
+    background-color: blue;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    padding: 8px 16px 8px 16px;
+    border-radius: 2px;
+    margin:25px 200px 0px 450px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.per{
+    background-color: blue;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 8px 16px 8px 16px;
+    margin:25px 20px 0px 90px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.b1{
+    text-decoration: none;
+    color: white;
+}.b2{
+    text-decoration: none;
+    color: white;
+}
+.bio:hover{
+    transform: scale(1.2);
+    background-color: rgb(76, 16, 240);
+    opacity: .95;
+}
+.per:hover{
+    transform: scale(1.2);
+}
+.hello{
+    margin-bottom: 30px;
+}
