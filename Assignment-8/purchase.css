@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: blue;
+    color: rgb(206, 151, 151);
+   font-size: 25px;
+   padding: 10px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cont{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family:'Noto Sans', sans-serif;
+    margin-top: 20px;
+
+}
+.btn{
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0ch;
+    box-shadow: 1px 1px 1px 1px rgb(127, 126, 126);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    left: 1000px;  
+}
+.btn:hover{
+   font-weight: bolder;
+   color: red;
+   cursor: pointer;
+   background-color: blue;
+   color: aqua;
+   font-family: 'Oswald', sans-serif;
+}
+.items{
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+#item ,#price,#quantity,#code{
+    width: 200px;
+    height: 30px;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+table{
+  margin-left: 250px;
+  border-spacing: 10px;
+}
+table,td{
+    border: 1px solid white;
+    padding:10px;
+    border-collapse: collapse;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+th, td {
+    background-color: #96D4D4;
+}
+#info{
+    margin-left:450px ;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+
+}
+.main{
+    width: 1000px;
+    border: 2px solid black;
+    margin: 10px 150px 10px 250px ;
+    height: 750px;
+    border-radius: 8px;
+}
+   
+
+

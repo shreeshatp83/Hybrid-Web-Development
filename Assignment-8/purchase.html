@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="purchase.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+            <div class="head">
+                
+                <h1>
+                    <center>Billing</center>
+                </h1>
+        
+            </div>
+            <div class="main">
+                    <P> 
+                        <div class="cont">
+                            <p class="items">
+                                Item purchased:<input type="text" id="item"  class="item">
+                            </p>
+                            <p class="items">
+                                Quantity:<input type="text" id="quantity" class="item">
+                            </p>
+                            <p class="items">
+                                Item Code:<input type="text" id="code" class="item">
+                            </p>
+                            <p class="items">
+                                Item Price:<input type="text" id="price" class="item">
+                            </p>                   
+                            <div class="btns">
+                                <button id="add" class="btn">Add</button>
+                                <button id="calculate" class="btn">Calculate</button>
+                            </div>
+                        </div>
+                    </P>
+            
+                <div class="cont2">
+                    <p>
+                        <table style="border: 2px solid black;" id="mytab">
+                            <tr>
+                                <td>Item purchased</td>
+                                <td>Quantity</td>
+                                <td>Item Code</td>
+                                <td>Item Price</td>
+                                <td>Total price</td>
+                            </tr>
+                            <tr>
+                                <td>Apple</td>
+                                <td>2</td>
+                                <td>12345</td>
+                                <td>25</td>
+                                <td>50</td>
+                            </tr>
+                        </table>
+                    </p>
+                    <p id="info" ></p>
+                </div>
+            </div>
+    </div>
+
+    <script src="purchase.js">
+        // function myf(){
+            // const a= new Object();
+    //     a.item=document.getElementById("ir11").value;
+    //     a.quantity=document.getElementById("ir12").value;
+    //     a.code=document.getElementById("ir13").value;
+    //     a.price=document.getElementById("ir14").value;
+    //     const b=new Object();
+    //     b.item=document.getElementById("ir21").value;
+    //     b.quantity=document.getElementById("ir22").value;
+    //     b.code=document.getElementById("ir23").value;
+    //     b.price=document.getElementById("ir24").value;
+    //     const c=new Object();
+    //     c.item=document.getElementById("ir31").value;
+    //     c.quantity=document.getElementById("ir32").value;
+    //     c.code=document.getElementById("ir33").value;
+    //     c.price=document.getElementById("ir34").value;
+
+    //     document.writeln(a.item);
+    // document.getElementById("jr11").innerHTML=a.item;
+    // document.getElementById("jr12").innerHTML=a.quantity;
+    // document.getElementById("jr13").innerHTML=a.code;
+    // document.getElementById("jr14").innerHTML=a.price;
+    // document.getElementById("jr15").innerHTML=a.quantity*a.price;
+
+    // document.getElementById("jr21").innerHTML=b.item;
+    // document.getElementById("jr22").innerHTML=b.quantity;
+    // document.getElementById("jr23").innerHTML=b.code;
+    // document.getElementById("jr24").innerHTML=b.price;
+    // document.getElementById("jr25").innerHTML=b.quantity*b.price;
+
+    // document.getElementById("jr31").innerHTML=c.item;
+    // document.getElementById("jr32").innerHTML=c.quantity;
+    // document.getElementById("jr33").innerHTML=c.code;
+    // document.getElementById("jr34").innerHTML=c.price;
+    // document.getElementById("jr35").innerHTML=c.quantity*c.price;
+    </script>
+</body>
+
+</html>
