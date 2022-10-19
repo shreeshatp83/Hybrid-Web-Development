@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div calss="main">
+        <div class="head">
+            <center>CALCULATOR</center>
+        </div>
+        <DIV class="empty">
+            <div class="cont">
+                <div class="enternum">
+                    <p class="p2">
+                    Enter a number :<input type="number" placeholder="Number" id="num">
+                    </p>
+                </div>
+                    <p id="p3">
+                        <div class="d1">
+                            <diV class="btn1">
+                                <button id="fact" class="fact"  onclick="f1()">FACTORIAL</button>
+                                <p id="bp1"></p>
+                            </diV>
+                            <div class="btn2">
+                                <button id="prime" class="prime" onclick="f2()">PRIME</button>
+                                <p id="bp2"></p>
+                            </div>
+                        </div>
+                        <div class="d2">
+                            <div class="btn3">
+                                <button id="fib" class="fib" onclick="f3()">FIBONACCI</button>
+                                <p id="bp3"></p>
+                            </div>
+                            <div class="btn4">
+                                <BUTTON id="nat" class="nat" onclick="f4()">NATURAL NUMBERS</BUTTON>
+                                <p id="bp4"></p>
+                            </div>
+                        </div>
+                        <div class="res">
+                        <p id="p"></p>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </DIV>
+    </div>
+    <script src="resp.js"></script>
+</body>
+</html>

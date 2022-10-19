@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: solid;
+}
+body{
+    background-color: aqua;
+}
+.head{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 75px;
+    background-color: blue;
+}
+.cont{
+    width: 600px;
+    height: 350px;
+    background-color: aqua;
+    margin:auto;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    color: blue;
+    margin-top: 40px;
+    border-radius: 3px;
+    }
+.p2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.p3{
+    padding: 10px;
+    margin: 10px ;
+}
+.empty{
+    display: flex;
+    align-items: center;
+}
+.enternum{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    line-height: 100px;
+    border-radius: 3px;
+}
+#num{
+    width:150px ;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.d1,.d2{
+    /* border: 1px solid black; */
+    height:125px;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: white;
+}
+.btn1,.btn2,.btn3,.btn4{
+    /* border: 2px solid black; */
+    height:125px;
+    width: 50%;
+}
+.fact,.prime,.fib{
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: blue;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px; 
+    margin-bottom: 15px; 
+    box-shadow: 1px 1px 1px 1px rgb(127, 126, 126);
+    border: 0ch;
+    border-radius: 3px;
+}
+.nat{
+    margin-top: 15px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    color: blue;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;  
+    margin-bottom: 15px; 
+    box-shadow: 1px 1px 1px 1px rgb(127, 126, 126);
+    border: 0ch;
+    border-radius: 3px;
+
+}
+.fact:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.fib:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.nat:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.prime:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+#bp1,#bp2,#bp3,#bp4{
+    font-weight: bold;
+}
+.res{
+    /* border: 2px solid black; */
+    height: 25px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
